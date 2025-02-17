@@ -37,6 +37,7 @@ a {
     text-decoration: none;
 }
 .container {
+    padding-top: 30px;
     padding-inline: 15px;
     margin:9px auto 0;
 }
@@ -107,4 +108,38 @@ a {
         width: 38rem;
         padding: 3rem 4rem;
     }
+}
+.follow-social {
+    display: flex;
+    gap: 20px;
+    padding-bottom:30px;
+    /* margin: 10px; */
+    margin-top: 30px;
+    
+
+    /* background-color: red; */
+    justify-content: center;
+}
+/* .follow-social p {
+    margin: 10px;
+    color: var(--clr-white);
+    transform: translate(-50%, -50%);
+} */
+.follow-social a {
+    background-color: var(--clr-white);
+    padding: 7px;
+    border-radius: 50%; 
+    /* text-align: center; */
+    display: flex;justify-content: center;align-items: center;
+    box-shadow: 0px 5px 4px rgba(218, 213, 213, 0.5);
+}
+.follow-social a:hover {
+    background-color: var(--clr-green);
+    transform: translate(0, -10px);
+    transition: .3s;
+}
+.follow-social a svg {
+    height: 20px; 
+    color: white;
+
 }
